@@ -91,5 +91,9 @@ public class PieChartManager extends ChartBaseManager<PieChart, PieEntry> {
         chart.setRotationEnabled(enabled);
     }
 
+    @ReactProp(name = "rotationAngle")
+    public void setRotationAngle(PieChart chart, float angle) {
+      chart.setRotationAngle(angle);
+    }
 
 }
